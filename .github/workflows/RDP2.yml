@@ -7,7 +7,7 @@ on:
       ts_api_key:      { description: "Tailscale API key", required: true }
       ts_authkey:      { description: "Tailscale Auth key", required: true }
       quick_test:      { description: "Run 5-min test", type: boolean, default: false }
-      runtime_minutes: { description: "Runtime", required: false, default: "5" }
+      runtime_minutes: { description: "Runtime", required: false, default: "355" }
       do_purge:        { description: "Purge bullet devices", required: false, default: "true" }
       rdp_count:       { description: "RDP count", required: false, default: "1" }
       cycles_left:     { description: "Cycles remaining", required: true }
